@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AD3037248C1C7FED000746F /* Pods_TigerChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23955BBC802FE28294A47A69 /* Pods_TigerChat.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A3A402211BAF7CD400F572E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A402201BAF7CD400F572E9 /* AppDelegate.swift */; };
 		A3A402231BAF7CD400F572E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A402221BAF7CD400F572E9 /* ViewController.swift */; };
 		A3A402261BAF7CD400F572E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A402241BAF7CD400F572E9 /* Main.storyboard */; };
 		A3A402281BAF7CD400F572E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A402271BAF7CD400F572E9 /* Assets.xcassets */; };
 		A3A4022B1BAF7CD400F572E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A402291BAF7CD400F572E9 /* LaunchScreen.storyboard */; };
+		A3A4023B1BAF7EF400F572E9 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4023A1BAF7EF400F572E9 /* MaterialView.swift */; settings = {ASSET_TAGS = (); }; };
+		A3A4023E1BAF7F3300F572E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4023D1BAF7F3300F572E9 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		A3A402401BAF821300F572E9 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4023F1BAF821300F572E9 /* MaterialButton.swift */; settings = {ASSET_TAGS = (); }; };
+		A3A402421BAF8C5E00F572E9 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A402411BAF8C5E00F572E9 /* MaterialTextField.swift */; settings = {ASSET_TAGS = (); }; };
+		A3A402451BAF936000F572E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A402441BAF936000F572E9 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		A3A402481BAF936900F572E9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A402461BAF936900F572E9 /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		A3A402491BAF936900F572E9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A402471BAF936900F572E9 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		A3A4024C1BAF9A7000F572E9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4024B1BAF9A7000F572E9 /* DataService.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23955BBC802FE28294A47A69 /* Pods_TigerChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TigerChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7515C01FF40F84F739418EB8 /* Pods-TigerChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TigerChat/Pods-TigerChat.debug.xcconfig"; sourceTree = "<group>"; };
 		A3A4021D1BAF7CD400F572E9 /* TigerChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigerChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A402201BAF7CD400F572E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3A402221BAF7CD400F572E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,19 @@
 		A3A402271BAF7CD400F572E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3A4022A1BAF7CD400F572E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3A4022C1BAF7CD400F572E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A402361BAF7D4100F572E9 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		A3A402371BAF7D4100F572E9 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A3A402381BAF7D4100F572E9 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		A3A402391BAF7D4100F572E9 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A3A4023A1BAF7EF400F572E9 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A3A4023D1BAF7F3300F572E9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3A4023F1BAF821300F572E9 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		A3A402411BAF8C5E00F572E9 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		A3A402441BAF936000F572E9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A3A402461BAF936900F572E9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		A3A402471BAF936900F572E9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		A3A4024B1BAF9A7000F572E9 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		ECA797DB956AC2A7FB75A57A /* Pods-TigerChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TigerChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TigerChat/Pods-TigerChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD3037248C1C7FED000746F /* Pods_TigerChat.framework in Frameworks */,
+				A3A402481BAF936900F572E9 /* FBSDKCoreKit.framework in Frameworks */,
+				A3A402491BAF936900F572E9 /* FBSDKLoginKit.framework in Frameworks */,
+				A3A402451BAF936000F572E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +68,8 @@
 			children = (
 				A3A4021F1BAF7CD400F572E9 /* TigerChat */,
 				A3A4021E1BAF7CD400F572E9 /* Products */,
+				CFDFA97AF9BFF770639D541E /* Pods */,
+				DF5D643E1C55E3C816B943DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +84,13 @@
 		A3A4021F1BAF7CD400F572E9 /* TigerChat */ = {
 			isa = PBXGroup;
 			children = (
+				A3A4024A1BAF9A5D00F572E9 /* Services */,
+				A3A402431BAF934900F572E9 /* Frameworks */,
+				A3A4023C1BAF7F2700F572E9 /* Utils */,
+				A3A402351BAF7CF300F572E9 /* Resources */,
+				A3A402341BAF7CED00F572E9 /* Model */,
+				A3A402331BAF7CE800F572E9 /* View */,
+				A3A402321BAF7CE200F572E9 /* Controller */,
 				A3A402201BAF7CD400F572E9 /* AppDelegate.swift */,
 				A3A402221BAF7CD400F572E9 /* ViewController.swift */,
 				A3A402241BAF7CD400F572E9 /* Main.storyboard */,
@@ -64,6 +101,84 @@
 			path = TigerChat;
 			sourceTree = "<group>";
 		};
+		A3A402321BAF7CE200F572E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A3A402331BAF7CE800F572E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4023A1BAF7EF400F572E9 /* MaterialView.swift */,
+				A3A4023F1BAF821300F572E9 /* MaterialButton.swift */,
+				A3A402411BAF8C5E00F572E9 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A3A402341BAF7CED00F572E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A3A402351BAF7CF300F572E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3A402361BAF7D4100F572E9 /* NotoSans-Bold.ttf */,
+				A3A402371BAF7D4100F572E9 /* NotoSans-BoldItalic.ttf */,
+				A3A402381BAF7D4100F572E9 /* NotoSans-Italic.ttf */,
+				A3A402391BAF7D4100F572E9 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A3A4023C1BAF7F2700F572E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4023D1BAF7F3300F572E9 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A3A402431BAF934900F572E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3A402461BAF936900F572E9 /* FBSDKCoreKit.framework */,
+				A3A402471BAF936900F572E9 /* FBSDKLoginKit.framework */,
+				A3A402441BAF936000F572E9 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3A4024A1BAF9A5D00F572E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A3A4024B1BAF9A7000F572E9 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CFDFA97AF9BFF770639D541E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7515C01FF40F84F739418EB8 /* Pods-TigerChat.debug.xcconfig */,
+				ECA797DB956AC2A7FB75A57A /* Pods-TigerChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF5D643E1C55E3C816B943DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23955BBC802FE28294A47A69 /* Pods_TigerChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3A4022F1BAF7CD400F572E9 /* Build configuration list for PBXNativeTarget "TigerChat" */;
 			buildPhases = (
+				521FA1BBD2AF07FD77E0CAC8 /* Check Pods Manifest.lock */,
 				A3A402191BAF7CD400F572E9 /* Sources */,
 				A3A4021A1BAF7CD400F572E9 /* Frameworks */,
 				A3A4021B1BAF7CD400F572E9 /* Resources */,
+				D87351291D42825487D730FA /* Embed Pods Frameworks */,
+				E33CB920599107CA1640DE01 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,13 +247,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		521FA1BBD2AF07FD77E0CAC8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D87351291D42825487D730FA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TigerChat/Pods-TigerChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33CB920599107CA1640DE01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TigerChat/Pods-TigerChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3A402191BAF7CD400F572E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A402421BAF8C5E00F572E9 /* MaterialTextField.swift in Sources */,
+				A3A4024C1BAF9A7000F572E9 /* DataService.swift in Sources */,
+				A3A4023B1BAF7EF400F572E9 /* MaterialView.swift in Sources */,
 				A3A402231BAF7CD400F572E9 /* ViewController.swift in Sources */,
 				A3A402211BAF7CD400F572E9 /* AppDelegate.swift in Sources */,
+				A3A4023E1BAF7F3300F572E9 /* Constants.swift in Sources */,
+				A3A402401BAF821300F572E9 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +417,13 @@
 		};
 		A3A402301BAF7CD400F572E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7515C01FF40F84F739418EB8 /* Pods-TigerChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TigerChat",
+				);
 				INFOPLIST_FILE = TigerChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeksdobyte.TigerChat;
@@ -257,8 +433,13 @@
 		};
 		A3A402311BAF7CD400F572E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA797DB956AC2A7FB75A57A /* Pods-TigerChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TigerChat",
+				);
 				INFOPLIST_FILE = TigerChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geeksdobyte.TigerChat;
@@ -285,6 +466,7 @@
 				A3A402311BAF7CD400F572E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
